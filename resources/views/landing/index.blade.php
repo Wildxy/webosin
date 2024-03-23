@@ -12,38 +12,54 @@
     <link rel="stylesheet" href="{{ asset('assets/css/carousel.css') }}">
 
 </head>
-<body>
-   @include('components.navbar')
 
-   
-   <section class="hero d-flex flex-column justify-content-center align-items-center" id="home">
-       
-       <div class="bg-overlay"></div>
-       <div class="gambar">
+    <body data-spy="scroll" data-target="#navbarNav" data-offset="50">
 
-           <img  src="{{ asset('assets/image/bg.jpg')}}" alt="">
-       </div>
-       <div class="container">
-           <div class="row">
-               
-               <div class="col-lg-8 col-md-10 mx-auto col-12">
-                      <div class="hero-text mt-5 text-center">
-                        
-                           
-                           
-                      </div>
-                 </div>
 
-            </div>
-       </div>
-</section>
+        <!-- MENU BAR -->
+        @include('components.navbar')
+    
+    
+         <!-- HERO -->
+       @include('components.hero')
+    
+        <!-- konten -->
+        @include('components.konten')
+    
+    
+         <!-- bagian about -->
+         @include('components.about')
+    
+    
+         <!-- isi affah enak nya? -->
+        @include('components.fungsi')
+    
+    
+        
+    
+    
+         <!-- CONTACT -->
+         @include('components.kontak')
+    
+    
+         <!-- FOOTER -->
+        @include('components.footer')
+  
 
 
     <!-- SCRIPTS -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/aos.js"></script>
-    <script src="js/smoothscroll.js"></script>
-    <script src="js/custom.js"></script>
+    {{-- <script src="{{ asset('js/jquery.min.js') }}"></script>
+    <script src="{{ asset('js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('js/aos.js') }}"></script>
+    <script src="{{ asset('js/smoothscroll.js') }}"></script>
+    <script src="{{ asset('js/custom.js') }}"></script> --}}
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script src="assets/js/smoothscroll.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/carousel.js"></script>
+   
 </body>
 </html>

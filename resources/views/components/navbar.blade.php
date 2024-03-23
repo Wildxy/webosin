@@ -16,19 +16,19 @@
                 </li>
 
                 <li class="nav-item">
-                    <a href="#ekspedisi" class="nav-link smoothScroll">something1</a>
+                    <a href="#konten" class="nav-link smoothScroll">something1</a>
                 </li>
 
                 <li class="nav-item">
-                    <a href="#alur" class="nav-link smoothScroll">something2</a>
+                    <a href="#about" class="nav-link smoothScroll">something2</a>
                 </li>
 
                 <li class="nav-item">
-                    <a href="#artikel" class="nav-link smoothScroll">something3</a>
+                    <a href="#fungsi" class="nav-link smoothScroll">something3</a>
                 </li>
 
                 <li class="nav-item">
-                    <a href="#testimoni" class="nav-link smoothScroll">something4</a>
+                    <a href="#kontak" class="nav-link smoothScroll">something4</a>
                 </li>
             </ul>
                 
