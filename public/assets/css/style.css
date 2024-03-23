@@ -1,6 +1,4 @@
-/* body{
-  overflow-x: hidden; /* Hide scrollbars */
-} */
+
 
   @font-face {
       font-family: 'Plain';
@@ -372,7 +370,7 @@
   -----------------------------------------*/
 
   .hero {
-    background-image: url('assets/image/bg.jpg');
+    background-image: url("/assets/image/bg.png");
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
@@ -381,12 +379,7 @@
     position: relative;
   }
 
-  .gambar{
-    background-size: cover;
-    background-position: top;
-    background-repeat: no-repeat;
-    
-  }
+
  
 
 
